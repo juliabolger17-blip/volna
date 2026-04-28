@@ -92,4 +92,9 @@
   .section-padding {
     @apply py-20 md:py-28 px-4 md:px-8;
   }
+
+  /* Tints a dark-on-white logo to match the site's primary ocean color */
+  .logo-tint {
+    filter: brightness(0) saturate(100%) invert(67%) sepia(54%) saturate(458%) hue-rotate(165deg) brightness(95%) contrast(92%);
+  }
 }
