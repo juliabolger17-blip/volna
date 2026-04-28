@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
+import logoVolna from "@/assets/logo-volna.png";
 
 const navItems = [
   { label: "Каталог", href: "#services" },
@@ -32,11 +33,13 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
-        <a href="#" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center">
-            <span className="text-primary font-display font-bold text-lg">В</span>
-          </div>
-          <span className="font-display text-xl font-semibold text-foreground">Волна</span>
+        <a href="#" className="flex items-center gap-3">
+          <img
+            src={logoVolna}
+            alt="Волна — аквариумная студия"
+            className="h-12 w-12 object-contain logo-tint"
+          />
+          <span className="font-display text-xl font-semibold text-foreground tracking-wide">Волна</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
