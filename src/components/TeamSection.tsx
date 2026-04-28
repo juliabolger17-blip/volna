@@ -58,7 +58,7 @@ const TeamSection = () => (
                 loading="lazy"
                 width={600}
                 height={600}
-                className="w-full h-72 object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-[28rem] md:h-[32rem] object-cover object-top group-hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="p-6">
