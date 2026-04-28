@@ -6,7 +6,7 @@ import logoVolna from "@/assets/logo-volna.png";
 const navItems = [
   { label: "Каталог", href: "#services" },
   { label: "Услуги", href: "#services" },
-  { label: "Портфолио", href: "#process" },
+  { label: "Портфолио", href: "#portfolio" },
   { label: "О компании", href: "#team" },
   { label: "Контакты", href: "#contacts" },
 ];
