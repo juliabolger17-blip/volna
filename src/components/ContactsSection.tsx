@@ -127,13 +127,13 @@ const ContactsSection = () => {
             </div>
             <div className="flex items-center gap-4">
               <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-              <a href="tel:+74951234567" className="text-foreground hover:text-primary transition-colors">
-                +7 (495) 123-45-67
+              <a href="tel:+79778774281" className="text-foreground hover:text-primary transition-colors">
+                +7 (977) 877-42-81
               </a>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-4">
               <a
-                href="https://wa.me/74951234567"
+                href="https://wa.me/79778774281"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary hover:bg-secondary/80 text-secondary-foreground transition-colors"
