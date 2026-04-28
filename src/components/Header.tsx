@@ -34,10 +34,20 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
         <a href="#" className="flex items-center gap-3">
-          <img
-            src={logoVolna}
-            alt="Волна — аквариумная студия"
-            className="h-12 w-12 object-contain logo-tint"
+          <div
+            aria-label="Волна — аквариумная студия"
+            role="img"
+            className="h-12 w-12 bg-primary"
+            style={{
+              WebkitMaskImage: `url(${logoVolna})`,
+              maskImage: `url(${logoVolna})`,
+              WebkitMaskRepeat: "no-repeat",
+              maskRepeat: "no-repeat",
+              WebkitMaskPosition: "center",
+              maskPosition: "center",
+              WebkitMaskSize: "contain",
+              maskSize: "contain",
+            }}
           />
           <span className="font-display text-xl font-semibold text-foreground tracking-wide">Волна</span>
         </a>
