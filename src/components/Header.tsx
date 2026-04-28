@@ -53,8 +53,8 @@ const Header = () => {
 
         <div className="hidden lg:flex items-center gap-3">
           <Phone className="w-4 h-4 text-primary" />
-          <a href="tel:+74951234567" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-            +7 (495) 123-45-67
+          <a href="tel:+79778774281" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            +7 (977) 877-42-81
           </a>
         </div>
 
@@ -84,7 +84,7 @@ const Header = () => {
           ))}
           <div className="flex items-center gap-2 pt-3 border-t border-border mt-3">
             <Phone className="w-4 h-4 text-primary" />
-            <a href="tel:+74951234567" className="text-sm text-foreground">+7 (495) 123-45-67</a>
+            <a href="tel:+79778774281" className="text-sm text-foreground">+7 (977) 877-42-81</a>
           </div>
         </motion.div>
       )}
